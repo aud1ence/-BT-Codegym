@@ -1,0 +1,15 @@
+table{ border-collapse: collapse;
+    background-color: darkorange;
+    margin-right: auto;
+    margin-left: auto;
+}
+#w{
+    background-color: white;
+}
+#b{
+    background-color: black;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
