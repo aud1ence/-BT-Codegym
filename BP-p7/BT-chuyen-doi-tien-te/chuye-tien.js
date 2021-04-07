@@ -4,4 +4,5 @@ function convert() {
     let from = document.getElementById("from").value;
     result = input * to / from;
     document.getElementById('ketqua').innerHTML=result;
+    document.write(result + "asdf");
 }
