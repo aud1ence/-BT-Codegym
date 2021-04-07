@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Chuyen doi tien te</title>
 </head>
-<body>
-$END$
+<body><!--Ty gia USD ngay 06/4 23.180.00-->
+    <h1> Chuyen doi tien te</h1>
+    <table width="50%">
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <input type="text" id="dauVao">
+                </form>
+            </td>
+            <td>
+                <select id="from">
+                    <option value="23180">Viet Nam</option>
+                    <option value="1">Dollar</option>
+                    <option value="27965">EURO</option>
+                </select>
+            </td>
+            <td>
+                <select id="to">
+                    <option value="1">USD</option>
+                    <option value="23180">Viet Nam</option>
+                    <option value="27965">EURO</option>
+                </select>
+            </td>
+            <td>
+                <input type="submit" onclick="convert()" value="convert">
+            </td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td><p id="ketqua"></p></td>
+        </tr>
+    </table>
+<script src="chuye-tien.js"></script>
 </body>
 </html>
