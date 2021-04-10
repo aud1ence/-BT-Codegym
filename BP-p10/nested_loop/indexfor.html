@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vong lap long nhau</title>
+</head>
+<body>
+<script>
+
+    let test;
+    test = "<table border='1' width='300' cellspacing='0' cellpadding='3'>"
+    for (i = 1; i <= 10; i++) {
+        test =test + "<tr>";
+        for (j = 1; j <= 10; j++) {
+            test = test + "<td>" + i*j + "</td>";
+        }
+        test = test + "</tr>";
+    }
+    test = test + "</table>";
+    document.write(test);
+</script>
+</body>
+</html>

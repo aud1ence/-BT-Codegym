@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vong lap while long nhau</title>
+</head>
+<body>
+<script>
+    let test, i, j;
+    test = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    i = j = 1;
+    while (i <= 10) {
+        test =test + "<tr>";
+        while (j <= 10) {
+            test = test + "<td>" + i*j + "</td>";
+            j++;
+        }
+        test = test + "</tr>";
+        j = 1;
+        i++;
+    }
+    test = test + "</table>";
+    document.write(test);
+</script>
+</body>
+</html>
