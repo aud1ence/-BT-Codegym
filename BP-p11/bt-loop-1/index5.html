@@ -6,15 +6,16 @@
 </head>
 <body>
 <script>
-    let a =0;
-    let b = 1;
-    const numbers = +prompt('Nhap so luong so trong day Fibo muon tinh');
-    // let fibo = a + b;
-    for (i = 1; i <= numbers; i++) {
+    const number = +prompt('Nhap so luong so Fibonaci can tim');
+    let a = 1;
+    let b = 0;
+    let fibo = a + b;
+    let sum = 0;
+    for (i = 1; i <= number; i++) {
         fibo = a + b;
         a = b;
         b = fibo;
-        console.log(fibo);
+        document.write(fibo + '<br>');
     }
 
 </script>

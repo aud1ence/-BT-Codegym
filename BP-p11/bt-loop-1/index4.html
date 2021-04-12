@@ -11,13 +11,14 @@
     let b = 1;
     let fibo;
     fibo = a + b;
-    for (i = 1; i <= 10; i++) {
+
+    for (i = 1; ; i++) {
         fibo = a + b;
         a = b;
         b = fibo;
         document.write(fibo+'<br>');
-        if (fibo % 5 == 0) {
-            document.write('So '+fibo+' trong day fibonaci chia het cho 5');
+        if (fibo % 19 === 0) {
+            document.write('So '+fibo+' trong day fibonaci chia het cho 19');
             break;
         }
     }

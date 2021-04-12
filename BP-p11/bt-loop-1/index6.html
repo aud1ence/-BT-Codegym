@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh tong 30 so chia het cho 7</title>
+</head>
+<body>
+<script>
+    let numbers = +prompt('Muon tim bao nhieu so chia het cho 7 thi phang vao day');
+    let count = 0;
+    let N = 1;
+    while (count < numbers) {
+        if (soChiahet(N)) {
+            document.write(N + '<br>');
+            count++;
+        }
+        N++;
+    }
+
+    function soChiahet(i) {
+        let check = true;
+        while (i > 1) {
+            if (i % 7 === 0) {
+                check = true;
+                break;
+            }
+        }
+        return check;
+    }
+
+</script>
+</body>
+</html>

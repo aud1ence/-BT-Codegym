@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FizzBuzz</title>
+</head>
+<body>
+<script>
+    i = +prompt('Nhap vao 1 so');
+    for (i=0; i <= 100; i++) {
+        if (i % 3 === 0) {
+            document.write('Fizz'+'<br/>');
+        } else if (i % 5 === 0) {
+            document.write('Buzz'+'<br>');
+        } else if (i % 3 === 0 && i % 5 === 0) {
+            document.write('FizzBuzz'+'<br>')
+        } else {
+            document.write('So '+i+' khong chia het cho 3 va 5'+'<br>');
+        }
+    }
+</script>
+</body>
+</html>
