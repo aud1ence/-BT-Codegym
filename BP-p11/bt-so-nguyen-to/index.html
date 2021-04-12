@@ -9,16 +9,24 @@
     let numbers = +prompt('Nhap vao so luong so nguyen to can tim');
     let count = 0;
     let N = 2;
-    let check = true;
-    for (; count < numbers; count++) {
-        while (N++ % N === 0) {
-            // N++;
-            alert(N + ' la so nguyen to')
-            N++;
+    while (count < numbers) {
+        if (soNguyento(N)) {
+            document.write(N + '<br>');
+            count++;
         }
-
+        N++;
     }
 
+    function soNguyento(n) {
+        let flag = true;
+        for (i = 2; i <= n / 2; i++) {
+            if (n % i === 0) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
 
 </script>
 </body>

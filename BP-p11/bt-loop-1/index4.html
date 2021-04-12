@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 4</title>
+</head>
+<body>
+<script>
+
+    let a = 0;
+    let b = 1;
+    let fibo;
+    fibo = a + b;
+    for (i = 1; i <= 10; i++) {
+        fibo = a + b;
+        a = b;
+        b = fibo;
+        document.write(fibo+'<br>');
+        if (fibo % 5 == 0) {
+            document.write('So '+fibo+' trong day fibonaci chia het cho 5');
+            break;
+        }
+    }
+</script>
+</body>
+</html>

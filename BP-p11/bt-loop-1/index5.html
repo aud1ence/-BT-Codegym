@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 5: Tinh tong 20 so dau tien trong day Fibo</title>
+</head>
+<body>
+<script>
+    let a =0;
+    let b = 1;
+    const numbers = +prompt('Nhap so luong so trong day Fibo muon tinh');
+    // let fibo = a + b;
+    for (i = 1; i <= numbers; i++) {
+        fibo = a + b;
+        a = b;
+        b = fibo;
+        console.log(fibo);
+    }
+
+</script>
+</body>
+</html>

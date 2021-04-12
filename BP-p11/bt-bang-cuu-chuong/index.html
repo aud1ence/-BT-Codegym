@@ -6,25 +6,19 @@
 </head>
 <body>
 <script>
-    let cuuChuong;
-    cuuChuong = "<table border='1' width='800' cellspacing='0' cellpadding='3'>"
-    for (i=1; i<10; i++) {
-        cuuChuong = cuuChuong + "<tr>";
-        for (j=1; j<2; j++) {
-            cuuChuong = cuuChuong + "<td>"+"2"+"x"+i+"="+i*2+"</td>";
-            cuuChuong = cuuChuong + "<td>"+"3"+"x"+i+"="+i*3+"</td>";
-            cuuChuong = cuuChuong + "<td>"+"4"+"x"+i+"="+i*4+"</td>";
-            cuuChuong = cuuChuong + "<td>"+"5"+"x"+i+"="+i*5+"</td>";
-            cuuChuong = cuuChuong + "<td>"+"6"+"x"+i+"="+i*6+"</td>";
-            cuuChuong = cuuChuong + "<td>"+"7"+"x"+i+"="+i*7+"</td>";
-            cuuChuong = cuuChuong + "<td>"+"8"+"x"+i+"="+i*8+"</td>";
-            cuuChuong = cuuChuong + "<td>"+"9"+"x"+i+"="+i*9+"</td>";
+    let sout;
+    sout = "<table border='1' width='900' cellspacing='0' cellpadding='3'>"
+    for (i = 1; i <= 10; i++) {
+        sout = sout + "<tr>";
+        for (j = 2; j <= 9; j++) {
+            total = j*i;
 
+            sout = sout + "<td>"+j+"x"+i+"="+total+"</td>";
         }
-        cuuChuong = cuuChuong +"</tr>";
+        sout = sout + "</tr>";
     }
-    cuuChuong = cuuChuong + "</table>";
-    document.write(cuuChuong);
+    sout = sout + "</table>";
+    document.write(sout);
 </script>
 </body>
 </html>
