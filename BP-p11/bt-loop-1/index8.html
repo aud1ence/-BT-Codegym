@@ -5,12 +5,41 @@
     <title>Game doan so</title>
 </head>
 <body>
-<input onclick="input()" type="button" value="Choi">
-<input onclick="this" type="reset" value="Choi lai">
+<input onclick="checkNumber()" type="button" value="Choi">
+<input onclick="reset()" type="reset" value="Choi lai">
 <script>
-function input() {
-    let input = prompt('Nhap ')
-}
+    function randomNumber(max, min) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    function checkNumber() {
+        let max = +prompt('Nhap vao so lon nhat');
+        let min = +prompt('Nhap vao so nho nhat');
+        let random = randomNumber(max, min);
+        let turn = +prompt('Nhap vao so luot');
+        let count = 0;
+        while (count < turn) {
+            let guess = +prompt('Nhap vao so ban doan');
+            if (random === guess) {
+                alert('Ban doan chuan day');
+                break;
+            } else {
+                count++
+                if (random > guess) {
+                    alert('Ban dang doan nho hon! doan lai nhe');
+                    continue;
+                } else {
+                    alert('Ban dang doan lon hon!');
+                    continue;
+                }
+            }
+        }
+    }
+    function reset() {
+        window.location.reload()
+    }
 </script>
 </body>
 </html>
