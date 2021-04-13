@@ -6,24 +6,18 @@
 </head>
 <body>
 <script>
-    let numbers = +prompt('Muon tim bao nhieu so chia het cho 7 thi phang vao day');
-    let count = 0;
-    let N = 1;
-    while (count < numbers) {
-        if (soChiahet(N)) {
-            document.write(N + '<br>');
-            count++;
+    let num = +prompt('Muon tinh tong cua bao nhieu so chia het cho 7 thi nhap vao day')
+    let i = 0;
+    let sum = 0;
+    let a = 1;
+    while (i < num) {
+        if (a % 7 === 0) {
+            i++;
+            sum += a;
         }
-        N++;
+        a++;
     }
-    while (count<number){
-
-    }
-    if (i % 7 === 0) {
-
-
-    }
-
+    document.write('Tong cua '+num+' so chia het cho 7 la: '+a);
 </script>
 </body>
 </html>
