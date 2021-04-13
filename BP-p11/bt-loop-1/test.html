@@ -6,19 +6,11 @@
 </head>
 <body>
 <script>
-    var previous = 0;
-    var current = 1;
-    var sum = 0;
-    var next;
-
-    for(i = 1; i < 21; i++){
-        next = current + previous;
-        previous = current;
-        current = next;
-  //      if(current % 2 === 0 && current < 4000000) {
-            sum += current;
-            console.log(sum);
-  //      }
+    for (let i = 5; i >=1 ; i--) {
+        for (let j = 1; j <=i ; j++) {
+         document.write(" * ")
+        }
+        document.write("<br>")
     }
 </script>
 </body>
