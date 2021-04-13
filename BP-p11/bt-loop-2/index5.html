@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let money = +prompt("Nhap so tien ban dau");
+    let month = +prompt('Nhap so thang cho vay');
+    let interestRate = +prompt('Nhap lai suat hang thang');
+    let i = 0, rate;
+    while (i < month) {
+        rate =money * interestRate * month ;
+        money += rate;
+        i++;
+    }
+    alert('Tong so tien sau '+month+' thang la '+ money);
+</script>
+</body>
+</html>
