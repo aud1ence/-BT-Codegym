@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khoi tao 10 so nguyen</title>
+</head>
+<body>
+<script>
+    for (let i = 0; i < 10; i++) {
+        let number = +prompt("Da nhap "+i+" so");
+        let numbers = [];
+        numbers[i] = number;
+        console.log(numbers);
+        for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] >= 10) {
+                let a = numbers[i];
+                document.write(a +' la so lon hon 10'+'<br>')
+            }
+        }
+
+    }
+</script>
+</body>
+</html>
