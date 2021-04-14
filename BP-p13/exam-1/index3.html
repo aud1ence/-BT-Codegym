@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen chu thuong thanh in hoa</title>
+</head>
+<body>
+<script>
+    let str = prompt('Nhap vao 1 cau noi noi tieng');
+    let result = [];
+    let checkA = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let checka = 'abcdefghijklmnopqrstuvwxyz';
+
+    for (let i = 0; i < str.length; i++) {
+        if (checkA.indexOf(str[i]) !== -1) {
+            result.push(str[i].toLowerCase())
+        } else if (checka.indexOf(str[i]) !== -1) {
+            result.push(str[i].toUpperCase());
+        }
+        else {
+            result.push(str[i]);
+        }
+    }
+    document.write(result.join(''));
+</script>
+</body>
+</html>

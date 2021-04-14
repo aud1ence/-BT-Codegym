@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25cebfa3-9dc9-4707-aaa3-1446ddbe7c0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../BP-p10/nested_loop/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p10/nested_loop/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p7/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p7/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p7/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p7/bt-bmi/bt-bmi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p7/bt-bmi/bt-bmi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p7/bt_may-tinh/bt_may-tinh.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p7/bt_may-tinh/bt_may-tinh.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p7/bt_may-tinh/bt_may-tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p7/bt_may-tinh/bt_may-tinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p7/bt_may-tinh/bt_may-tinh.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p7/bt_may-tinh/bt_may-tinh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p8/ex01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p8/sign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p8/sign01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p8/sign02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p8/sign03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/bt_click-anh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/bt_click-anh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/bt_click-anh/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/bt_click-anh/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/bt_may_tinh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/bt_may_tinh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/bt_may_tinh/may_tinh.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/bt_may_tinh/may_tinh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/bt_may_tinh/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/bt_may_tinh/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP-p9/lt_cau-truc-if2/index9.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1r8rWqeEcLW13vUvyGoCnhg6kDM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25cebfa3-9dc9-4707-aaa3-1446ddbe7c0f" name="Default Changelist" comment="" />
+      <created>1618368593090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618368593090</updated>
+      <workItem from="1618368594251" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
