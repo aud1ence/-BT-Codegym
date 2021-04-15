@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xoa so V khoi mang</title>
+</head>
+<body>
+<script>
+let arr = new Array();
+for (let i = 0; i < 10; i++) {
+    arr.push(+prompt('Nhap phan tu'));
+}
+let numV = +prompt('Nhap so V');
+for (let i = 0; i < arr.length; i++) {
+    if (numV === arr[i]) {
+        arr[i] = arr[i+1];
+        arr[arr.length-1] = 0;
+    }
+}
+alert('Mang sau khi thay doi V la: '+arr);
+</script>
+</body>
+</html>

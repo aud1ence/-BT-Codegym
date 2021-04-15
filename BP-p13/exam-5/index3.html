@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hien thi gia tri max va input average</title>
+</head>
+<body>
+<script>
+    let numbers = new Array();
+    let turn = +prompt('So luong phan tu')
+    for (let i = 0; i < turn; i++) {
+        numbers.push(+prompt('Nhap thoai mai di'));
+    }
+    let max = numbers[0];
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i]>max) {
+            max = numbers[i];
+        }
+        sum += numbers[i];
+    }
+    alert('Gia tri max la: '+max);
+    alert('Trung binh la: '+sum/turn);
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So nguyen V</title>
+</head>
+<body>
+<script>
+    let arr = new Array();
+    for (let i = 0; i < 10; i++) {
+        arr.push(+prompt('Nhap vao 10 phan tu'));
+    }
+    let numV = +prompt('Nhap so V de kiem tra');
+    let check = false;
+    for (let i = 0; i <10; i++) {
+        if (numV===arr[i]) {
+            check=true;
+            break;
+        }
+    }
+    if (check) {
+        alert('V is in the array');
+    } else {
+        alert('V is not in the array');
+    }
+</script>
+</body>
+</html>

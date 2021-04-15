@@ -6,19 +6,19 @@
 </head>
 <body>
 <script>
-    function integer() {
-        for (let i = 0; i < 10; i++) {
-            let number = +prompt("Da nhap "+i+" so");
-            let numbers = [];
-            numbers[i] = number;
-        }
-        
+    let numbers = new Array();
+    for (let i = 0; i < 10; i++) {
+        numbers.push(+prompt('Nhap vao'));
     }
-    function valuePoisi(integer()) {
-        for (let i = 0; i < ; i++) {
-
+    let max = numbers[0];
+    let index = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i]>max) {
+            max = numbers[i];
+            index = i;
         }
     }
+    alert('Phan tu '+max+' co gia tri lon nhat '+' tai vi tri '+index);
 </script>
 </body>
 </html>

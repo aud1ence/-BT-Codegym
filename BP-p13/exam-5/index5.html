@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dem so nguyen am</title>
+</head>
+<body>
+<script>
+    let numbers = new Array();
+    let elements = +prompt('So luong phan tu');
+    for (let i = 0; i < elements; i++) {
+        numbers.push(+prompt('Nhap ca so nguyen am nua nhe'));
+    }
+    let negative = 0;
+    for (let i = 0; i < elements; i++) {
+        if (numbers[i]<0) {
+            negative += 1;
+        }
+    }
+    alert('Ban da nhap vao: '+negative+' so nguyen am');
+</script>
+</body>
+</html>
