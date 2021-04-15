@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dem so ky tu</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let num = +prompt("Nhap so phan tu");
+    let check = "0123456789";
+    let count = [];
+    for (let i = 0; i < num; i++) {
+        arr.push(prompt("Nhap chuoi vao tung phan tu"))
+    }
+    for (let i = 0; i < num; i++) {
+        if (check.indexOf(arr[i]) !== 1) {
+            count.push(i);
+        }
+    }
+
+    alert("So ky tu so trong mang nay la: " + count.length);
+</script>
+</body>
+</html>

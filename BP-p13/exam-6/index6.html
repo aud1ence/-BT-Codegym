@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thay the ky tu</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let num = +prompt('Nhap so luong phan tu');
+    let a = '-';
+    for (let i = 0; i < num; i++) {
+        arr.push(prompt('Nhap tung ky tu'));
+        if (arr[i]===a) {
+            a = '_';
+        }
+    }
+    alert(arr);
+</script>
+</body>
+</html>
