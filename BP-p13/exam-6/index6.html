@@ -6,16 +6,9 @@
 </head>
 <body>
 <script>
-    let arr = [];
-    let num = +prompt('Nhap so luong phan tu');
-    let a = '-';
-    for (let i = 0; i < num; i++) {
-        arr.push(prompt('Nhap tung ky tu'));
-        if (arr[i]===a) {
-            a = '_';
-        }
-    }
-    alert(arr);
+    let str = prompt('Nhap vao day');
+    let change = str.replace(/-/g, "_");
+    alert(change);
 </script>
 </body>
 </html>
