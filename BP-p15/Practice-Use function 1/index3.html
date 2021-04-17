@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Bai tap 3</title>
 </head>
 <body>
-$END$
+<script>
+    let x = +prompt('Nhap gia tri cua x');
+    let y = +prompt('Nhap gia tri cua y');
+    myFunction(x, y);
+
+    function myFunction(x, y) {
+        if (x > y) {
+            alert('Gia tri cua x dang lon hon y');
+        } else {
+            let sum = x + y;
+            alert('Tong cua hai tham so la: ' + sum);
+            // return sum;
+        }
+    }
+</script>
 </body>
 </html>
