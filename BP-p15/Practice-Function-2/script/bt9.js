@@ -1,37 +1,20 @@
-function addArray() {
-    let arr = [];
-    let element = +prompt('Nhap so luong phan tu');
-    for (let i = 0; i < element; i++) {
-        arr.push(prompt('Nhap gia tri cua phan tu: ' + i));
-    }
-    let check = prompt('Nhap vao ky tu muon check');
-    let flag = false;
+let arr = [];
+let element = +prompt('Nhap so luong phan tu');
+for (let i = 0; i < element; i++) {
+    arr.push(prompt('Nhap gia tri cua phan tu: ' + i));
+}
+function checkArray (charact) {
+    let count = 0;
     for (let i = 0; i < arr.length; i++) {
-        if (check !== arr[i]) {
-            flag = true;
-            return alert('-1');
+        if (arr[i] === charact) {
+            count++;
         }
-        let count = 0;
-        count++;
     }
-alert(count)
-    if (flag) {
-        alert(count);
-    } else {
+    if (count === 0) {
         alert('-1');
+    } else {
+        alert('So lan xuat hien trong mang la: '+count);
     }
 }
-
-addArray();
-// function checkWord() {
-//     let check = prompt('Nhap vao ky tu muon kiem tra');
-//     let count = 0;
-//     for (let i = 0; i < addArray().length; i++) {
-//         if (check == addArray([i])) {
-//             count++;
-//         }
-//
-//     }
-//     return count;
-// }
-// checkWord();
+let check = prompt('Kiem tra');
+checkArray(check);
