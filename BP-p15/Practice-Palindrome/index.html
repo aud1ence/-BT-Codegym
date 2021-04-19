@@ -7,13 +7,22 @@
 <body>
 
 <script>
-    let arr = [];
-    arr.push(prompt('Nhap vao day'));
-    function isPalindrome() {
-        if (arr[0].charAt(0) === arr[0].charAt(arr[0].length - 1)) {
-            
-        }
+    let str = prompt("Nhap vao")
+    if (isPalindrome(str)) {
+        alert('True');
+    } else {
+        alert('False');
+    }
 
+    function isPalindrome(s) {
+        let check = s.split("")
+        if (check.length === 0 || check.length === 1) {
+            return true
+        }
+        if (check[0] === check[check.length - 1]) {
+            return isPalindrome(s.substring(1, s.length - 1))
+        }
+        return false
     }
 </script>
 </body>
