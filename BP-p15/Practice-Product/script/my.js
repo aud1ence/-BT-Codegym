@@ -32,13 +32,6 @@ function delProduct(index) {
 
 function editProduct(item) {
     let fix = prompt('Ten san pham thay the');
-    for (let i = 0; i < list.length; i++) {
-        if (item === list[i]) {
-            list.splice(item,1);
-            // table();
-            console.log(list);
-            list.push(fix);
-        }
-    }
+    list[item] = fix;
     table();
 }
