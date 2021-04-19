@@ -1,0 +1,31 @@
+body {
+    background-color: blanchedalmond;
+
+}
+
+h1 {
+    text-align: center;
+    color: cadetblue;
+}
+
+p {
+    font-weight: bold;
+    font-size: x-large;
+    color: mediumpurple;
+}
+div {
+    width: border-box;
+    height: border-box;
+}
+table {
+    width: 600px;
+    height: 200px;
+    border-collapse: collapse;
+}
+td {
+    border-top: 1px solid cadetblue;
+    border-bottom:1px solid cadetblue;
+    text-align: center;
+
+}
+
