@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap</title>
+
+</head>
+<body>
+<canvas id="myCanvas" width="900" height="500" style="border: 1px solid midnightblue "></canvas>
+<script src="Rectangle/Rectangle.js"></script>
+<script>
+    let hcn = new Rectangle(+prompt('Chieu dai'), +prompt('Chieu rong'));
+    let ve = hcn.draw();
+    alert('Acreage is: ' + hcn.calAcreage());
+    alert('Perimeter is: ' + hcn.calPerimeter());
+</script>
+</body>
+</html>
