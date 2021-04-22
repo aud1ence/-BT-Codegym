@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Game Speed</title>
 </head>
 <body>
-$END$
+<!--<img id="car" src="images.jpg" height="225" width="225"/>-->
+<canvas id="game" width="600" height="700" style="border: 1px solid rebeccapurple"></canvas>
+<script src="js/Car.js"></script>
+<script src="js/Enemy.js"></script>
+<script>
+    let image = new Image();
+    image.src = 'images.jpg';
+    let moveCar = new Car(300, 350, 100, 100, image);
+    moveCar.draw();
+
+    window.addEventListener('keydown', function (event) {
+        moveCar.move(event);
+    })
+    let enemy = new Enemy(250, 250, 50, 'blue');
+    enemy.draw();
+    enemy.bornEnemy();
+    console.log(enemies);
+</script>
 </body>
 </html>
