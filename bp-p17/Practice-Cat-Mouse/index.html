@@ -5,18 +5,16 @@
     <title>Cat and Mouse</title>
 </head>
 <body>
+<script src="js/Rat.js"></script>
+<script src="js/Cat.js"></script>
 <script>
-    let meo = new Cat();
-    meo.catchRat();
-    let ty = new Rat();
-    ty.shout();
-    console.log(meo.catchRat());
-
-
+    let meo = new Cat('doremon', 10, 20);
+    let ty = new Rat('jerry', 10, 5);
+     meo.catchRat(ty);
+     console.log(meo.catchRat());
+     meo.eatRat(ty);
 
 
 </script>
-<script src="js/Rat.js"></script>
-<script src="js/Cat.js"></script>
 </body>
 </html>

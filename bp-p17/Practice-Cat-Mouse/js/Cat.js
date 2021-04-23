@@ -1,25 +1,28 @@
 class Cat {
-    constructor(name) {
-        this.name = '';
-        this.weight = 0;
-        this.speed = 10;
+    constructor(name, weight, speed) {
+        this.name = name;
+        this.weight = weight;
+        this.speed = speed;
 
     }
-    shout(String) {
-        return console.log('meow meow');
+
+    shout() {
+        console.log('meow meow');
     }
-    catchRat(Rat) {
-        if (this.speed > Rat.speed) {
-            Rat.shout();
-            Rat.living();
-            return console.log('ahihi do ngok')
+
+    catchRat(rat) {
+        if (this.speed > rat.speed) {
+            console.log('test')
+            this.eatRat();
         }
     }
-    eatRat(Rat) {
-        Rat.alive = false;
-        this.weight = Rat.weight;
+
+    eatRat(rat) {
+       this.weight += rat.weightR;
+         rat.living();
     }
+
     getName() {
-        return this.name;
+
     }
 }

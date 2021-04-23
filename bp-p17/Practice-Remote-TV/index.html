@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote TV</title>
+</head>
+<body>
+<script src="js/Remote.js"></script>
+<script src="js/TiVi.js"></script>
+<script>
+    let tv = new TiVi(123);
+    let remote = new Remote(123);
+    remote.onRemote(tv);
+    remote.moveChanel('7');
+    remote.moveChanel('3');
+    remote.controlVolume(2);
+    remote.offRemove();
+
+</script>
+</body>
+</html>
