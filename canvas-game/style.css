@@ -1,0 +1,57 @@
+canvas {
+    border: 1px solid black;
+    background-color: skyblue;
+    margin: 100px auto;
+}
+
+#game {
+    width: 900px;
+    height: 700px;
+    position: absolute;
+    /*top: 10%;*/
+    left: 30%;
+    margin: 20px auto;
+    /*z-index: 200;*/
+}
+
+button {
+    background-color: #940b8c; /* Green */
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 750px;
+    margin-right: auto;
+    position: absolute;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 8px;
+    left: 45%;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+button {
+    background-color: white;
+    color: #000000;
+    border: 2px solid #008CBA;
+}
+
+#score {
+    font-size: 100px;
+    color: black;
+    position: absolute;
+    top: 50%;
+
+}
+
+/*body {*/
+/*    background-image: url("image/minimal-abstract-building-with-pink-window-blue-sky-background-architectural-design-with-shade-shadow-pink-texture-3d-rendering_224530-90.jpg") ;*/
+
+
+/*}*/
