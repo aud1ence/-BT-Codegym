@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script>
+    //Cau 1
+    function findMax(arr) {
+        let max = arr[0];
+        for (let i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+    console.log(findMax([12,32,1,2,3]))
+
+    //Cau 2
+    function  tryRemoveFromArray(arr,x) {
+        for (let i = 0; i < arr.length; i++) {
+            if (x !== arr[i]) {
+                return arr;
+            } else {
+                arr.splice(i, 1);
+            }
+        }
+        return arr;
+    }
+    console.log(tryRemoveFromArray([1,2,3,4], 5))
+
+    //Cau 3
+    function  isFibonacci(num) {
+        if (num === 0 || num === 1) {
+            return true;
+        }
+        let a = 1, b = 0, count = 2;
+        while (count <= num) {
+            if (a + count === num) {
+                return true;
+            }
+            b = a;
+            a = count;
+            count += b;
+        }
+        return false;
+    }
+    isFibonacci();
+    console.log(isFibonacci(2));
+
+</script>
+<canvas id="exam" ></canvas>
+<script src="exam.js"></script>
+
+</body>
+</html>
